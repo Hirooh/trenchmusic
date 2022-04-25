@@ -1,2 +1,2 @@
 # trenchmusic
-Trabalho de DBO - Juan Madeira e Murillo Dominguez
+Trabalho de DBO - Juan e Murillo
