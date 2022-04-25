@@ -1,0 +1,40 @@
+@import url('style.css');
+
+/*Banner*/
+
+.banner{
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    background-color: #e7ad39b4;
+}
+
+/*Main*/
+
+.section{
+    margin: 0px auto 0px auto;
+    width: 1000px;
+    padding: 100px;
+    height: 500px;
+    margin-bottom: 100px;
+    background-color: #ffe1a4b4;
+}
+
+.maisacessadas{
+    background-color: #be8c28b4;
+    float: left;
+    margin-right: 500px;
+    list-style: none;
+}
+
+.tabgenero{
+    background-color: #be8c28b4;
+    float: left;
+}
