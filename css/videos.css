@@ -1,0 +1,21 @@
+@import url('./style.css');
+
+main{
+    margin-bottom: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+.txtvidjuan{
+    margin-left: 100px;
+    width: 500px;
+    text-align: justify;
+    font-size: medium;
+    float: left;
+}
+
+.vidjuan{
+    margin-left: 150px;
+    float: left;
+}

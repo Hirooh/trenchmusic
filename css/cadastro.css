@@ -1,0 +1,80 @@
+@import url('./style.css')
+
+.loginbox{
+    width: 400px;
+    padding: 0px;
+    height: 350px;
+    margin: 50px auto 50px auto;
+    background-color: burlywood;
+}
+
+.imgcontainer{
+    width: 200px;
+    height: 100px;
+    margin-left: 128px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.imgcontainer img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.formlog{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.formlog legend{
+    font-family: Ubuntu, monospace;
+    font-weight: bold;
+    margin-left: 140px;
+    margin-bottom: 20px;
+    font-size: 20pt;
+}
+
+.formlog label{
+    font-family: Ubuntu, monospace;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.formlog input[type="text"], input[type=password]{
+    width: 325px;
+    padding: 5px;
+    height: 30px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: 20px;
+}
+
+.sidebar{
+    width: 10px;
+    height: 100%;
+    background-color: rgb(73, 73, 73);
+    left: 0;
+    float: left;
+}
+
+.sign{
+    display: block;
+    font-size: 8pt;
+    width: 200px;
+    margin-left: 180px;
+    margin-right: 0px;
+}
+
+.sign a:visited, .sign a{
+    color: rgb(94, 123, 226);
+}
+
+.sign a:hover{
+    color: rgb(125, 153, 255);
+}

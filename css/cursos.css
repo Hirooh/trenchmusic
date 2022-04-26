@@ -1,0 +1,46 @@
+@import url('./style.css');
+
+.container{
+    margin: 0px auto 0px auto;
+    width: 1000px;
+    padding: 100px;
+    height: 200px;
+    margin-bottom: 100px;
+    background-color: #ffe1a4b4;
+}
+
+.ad1{
+    width: 600px;
+    margin-top: -60px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.ad2{
+    width: 600px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: medium;
+    line-height: 30px;
+}
+
+.adbotao{
+    width: 300px;
+    height: 70px;
+    margin-top: 80px;
+    margin-left: 150px;
+    line-height: 30px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    background-color: #b9ffa4;
+    border-radius: 20px;
+}
+
+.adbotao a{
+    position: relative;
+    top: 18px;
+    width: 100%;
+}
