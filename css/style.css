@@ -61,7 +61,7 @@ header input[type="submit"]{
 
 header input[type="submit"]:hover{
     outline: 1px solid #000000;
-    border-radius: 75px;
+    border-radius: 10px;
 }
 
 form{
@@ -123,6 +123,10 @@ nav{
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     border-radius: 5px;
+}
+
+.list a:hover, .sublist a:hover{
+    color: rgb(255, 116, 100);
 }
 
 .menu li:last-child{
@@ -212,6 +216,10 @@ footer{
 
 .socialmedia a{
     float: left;
+}
+
+.socialmedia a:hover{
+    color: #b1b1b1;
 }
 
 .icon{

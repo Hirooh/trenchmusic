@@ -66,6 +66,8 @@
     top: 20px;
     width: 269px;
     height: 193px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .adviolao2{
@@ -109,6 +111,8 @@
     top: 20px;
     width: 269px;
     height: 193px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .aduke2{

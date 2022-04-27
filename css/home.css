@@ -1,6 +1,6 @@
 @import url('./style.css');
 
-/*Banner*/
+/* Banner */
 
 .banner{
     width: 1000px;
@@ -16,33 +16,34 @@
     background-color: #e7ad39b4;
 }
 
-/*Main*/
-
 .container{
     margin: 0px auto 0px auto;
     width: 1000px;
     padding: 100px;
-    height: 2000px;
+    height: 720px;
     margin-bottom: 100px;
     background-color: #ffe1a4b4;
 }
 
-.maisacessadas{
-    background-color: #be8c28b4;
-    float: left;
-    margin-right: 500px;
-    list-style: none;
-}
+/* Tabela */
 
 .tabgenero{
-    background-color: #be8c28b4;
-    float: left;
-    padding: 20px;
-    width: 1000px;
+    margin-left: 1000px;
+    margin-top: -55px;
+    padding: 20px
 }
 
 .tabs{
+    width: 400px;
+    padding: 20px;
+    float: right;
+    background-color: #ebb64cb4;
     margin: 0px auto 0px auto;
+    margin-top: 110px;
+}
+
+.tabs td, .tabs th{
+    border: 1px solid black;
 }
 
 .tabgenero table{
@@ -51,25 +52,103 @@
     margin-left: 30px;
 }
 
-.tabtitle{
+table.table1{
+    border: 0px solid #000000;
+    text-align: center;
+    height: 245px;
+    width: 343px;
+}
+
+table.table1 td, table.table1 th{
+    border: 1px solid #000000;
+    padding: 20px 20px;
+}
+
+table.table1 td a:hover{
+    color: #3f3f3f;
+    text-decoration: underline;
+}
+
+table.table1 thead{
+    border-bottom: 2px solid #444444;
+}
+
+table.table1 thead th{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.acessos{
+    font-weight: bold;
+    border-top: 1px solid #444444;
+}
+
+/* Lista de Músicas mais Acessadas */
+
+.listmaisaces{
+    background-color: #ebb64cb4;
+    margin-top: 90px;
+    float: left;
+    width: 550px;
+    height: 530px;
+    list-style: none;
+}
+
+.maisacessadas{
+    margin-left: 50px;
+}
+
+.maisacestitle{
+    font-weight: bold;
     font-size: x-large;
-    font-weight: bolder;
+    text-align: left;
+    margin-top: 45px;
 }
 
-.table1{
-    float: left;
-    margin-top: 120px;
-    line-height: 60px;
+.maisacesmusica{
+    margin-left: 20px;
+    margin-top: 30px;
+    line-height: 40px;
 }
 
-.table2{
-    float: left;
-    margin-top: 60px;
-    line-height: 60px;
+.maisacesmusica a{
+    font-weight: bold;
+    text-decoration: underline;
 }
 
-.table3{
+.maisacesmusica a:hover{
+    color: #3f3f3f;
+}
+
+.container iframe{
+    border-radius: 12px;
+    width: 400px;
+    height: 220px;
+    margin-top: 30px;
     float: right;
-    margin-top: 120px;
-    line-height: 60px;
+}
+
+.lojaad{
+    position: relative;
+    float: left;
+    margin-top: 45px;
+    left: 40px;
+}
+
+.acesseloja{
+    text-decoration: underline;
+}
+
+.acesseloja:hover{
+    color: #3f3f3f;
+}
+
+.carrinho{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 10px;
+    left: 50px;
+    width: 90px;
+    height: 90px;
 }
