@@ -121,6 +121,21 @@ table.table1 thead th{
     color: #3f3f3f;
 }
 
+.sub{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.maisacesleft{
+    float: left;
+}
+
+.maisacesright{
+    margin-left: 70px;
+    float: left;
+}
+
 .container iframe{
     border-radius: 12px;
     width: 400px;

@@ -75,11 +75,11 @@
 }
 
 .genero{
-    width: 270px;
+    width: 350px;
     height: 70px;
 }
 
-.formlog2 label[for="fem"], .formlog2 label[for ="masc"]{
+.formlog2 label[for="fem"], .formlog2 label[for ="masc"], .formlog2 label[for ="out"]{
     float: left;
     margin-top: 4px;
     margin-left: 10px;
