@@ -41,6 +41,15 @@
     border-radius: 20px;
 }
 
+.cursosimg{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 700px;
+    bottom: 210px;
+    border-radius: 20px;
+}
+
 .container2{
     margin: 0px auto 0px auto;
     width: 1000px;
