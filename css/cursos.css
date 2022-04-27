@@ -99,8 +99,9 @@
 .ulviolao{
     list-style-position: inside;
     margin-bottom: 140px;
+    width: 450px;
     padding-left: 400px;
-    line-height: 15px;
+    line-height: 30px;
     color: #7A7A7A;
 }
 
@@ -141,6 +142,6 @@
 
 .uluke{
     list-style-position: inside;
-    line-height: 15px;
+    line-height: 30px;
     color: #7A7A7A;
 }
