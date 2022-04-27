@@ -20,7 +20,8 @@
 
 .ad2{
     width: 600px;
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-bottom: 70px;
     text-align: center;
     font-size: medium;
     line-height: 30px;
@@ -29,7 +30,8 @@
 .adbotao{
     width: 300px;
     height: 70px;
-    margin-top: 80px;
+    padding: 20px;
+    margin-top: 100px;
     margin-left: 150px;
     line-height: 30px;
     text-align: center;
@@ -39,8 +41,93 @@
     border-radius: 20px;
 }
 
-.adbotao a{
+.container2{
+    margin: 0px auto 0px auto;
+    width: 1000px;
+    padding: 100px;
+    height: 600px;
+    margin-bottom: 100px;
+    background-color: #ffe1a4b4;
+}
+
+.adviolao1{
     position: relative;
-    top: 18px;
-    width: 100%;
+    margin-bottom: 20px;
+    font-family: Ubuntu, monospace;
+    font-weight: bold;
+    font-size: x-large;
+    width: 500px;
+}
+
+.adviolaoimg{
+    position: relative;
+    margin-bottom: 10px;
+    float: left;
+    top: 20px;
+    width: 269px;
+    height: 193px;
+}
+
+.adviolao2{
+    width: 600px;
+    margin-left: 400px;
+    margin-bottom: 10px;
+    font-size: medium;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 30px;
+}
+
+.adviolao3{
+    width: 600px;
+    margin-bottom: 10px;
+    font-size: medium;
+    text-align: justify;
+}
+
+.ulviolao{
+    list-style-position: inside;
+    margin-bottom: 140px;
+    padding-left: 400px;
+    line-height: 15px;
+    color: #7A7A7A;
+}
+
+.aduke1{
+    position: relative;
+    margin-bottom: 20px;
+    font-family: Ubuntu, monospace;
+    font-weight: bold;
+    font-size: x-large;
+    width: 500px;
+}
+
+.adukeimg{
+    position: relative;
+    margin-bottom: 10px;
+    float: right;
+    top: 20px;
+    width: 269px;
+    height: 193px;
+}
+
+.aduke2{
+    width: 600px;
+    margin-bottom: 10px;
+    font-size: medium;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 30px;
+}
+
+.aduke3{
+    width: 600px;
+    font-size: medium;
+    text-align: justify;
+}
+
+.uluke{
+    list-style-position: inside;
+    line-height: 15px;
+    color: #7A7A7A;
 }

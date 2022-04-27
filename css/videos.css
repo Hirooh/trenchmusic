@@ -1,21 +1,71 @@
 @import url('./style.css');
 
-main{
-    margin-bottom: 600px;
-    margin-left: auto;
-    margin-right: auto;
+.container{
+    margin: 0px auto 0px auto;
     width: 1000px;
-}
-
-.txtvidjuan{
-    margin-left: 100px;
-    width: 500px;
-    text-align: justify;
-    font-size: medium;
-    float: left;
+    padding: 100px;
+    height: 500px;
+    margin-bottom: 100px;
+    background-color: #ffe1a4b4;
 }
 
 .vidjuan{
-    margin-left: 150px;
     float: left;
+}
+
+.txtvidjuan{
+    position: relative;
+    top: 10px;
+    right: 100px;
+    margin-left: 100px;
+    width: 250px;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 20px;
+    font-size: medium;
+}
+
+.txtvidjuan p{
+    height: 0px;
+}
+
+.vidmurillo1{
+    position: relative;
+    float: right;
+    margin-left: 300px;
+    left: 25px;
+}
+
+.txtvidmurillo1{
+    position: relative;
+    bottom: 210px;
+    right: 400px;
+    margin-left: 100px;
+    width: 300px;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 25px;
+    font-size: medium;
+    float: right;
+}
+
+.vidmurillo2{
+    position: relative;
+    float: right;
+    margin-left: 300px;
+    bottom: 70px;
+    left: 25px;
+}
+
+.txtvidmurillo2{
+    position: relative;
+    bottom: 280px;
+    right: 400px;
+    margin-left: 100px;
+    width: 300px;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 25px;
+    font-size: medium;
+    float: right;
 }

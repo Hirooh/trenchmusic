@@ -18,11 +18,11 @@
 
 /*Main*/
 
-.section{
+.container{
     margin: 0px auto 0px auto;
     width: 1000px;
     padding: 100px;
-    height: 500px;
+    height: 2000px;
     margin-bottom: 100px;
     background-color: #ffe1a4b4;
 }
@@ -37,4 +37,39 @@
 .tabgenero{
     background-color: #be8c28b4;
     float: left;
+    padding: 20px;
+    width: 1000px;
+}
+
+.tabs{
+    margin: 0px auto 0px auto;
+}
+
+.tabgenero table{
+    width: 300px;
+    height: 200px;
+    margin-left: 30px;
+}
+
+.tabtitle{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.table1{
+    float: left;
+    margin-top: 120px;
+    line-height: 60px;
+}
+
+.table2{
+    float: left;
+    margin-top: 60px;
+    line-height: 60px;
+}
+
+.table3{
+    float: right;
+    margin-top: 120px;
+    line-height: 60px;
 }

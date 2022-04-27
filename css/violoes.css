@@ -1,0 +1,17 @@
+@import url('./style.css');
+
+.container{
+    margin: 0px auto 0px auto;
+    width: 1000px;
+    padding: 100px;
+    height: 1000px;
+    margin-bottom: 100px;
+    background-color: #ffe1a4b4;
+}
+
+.row{
+    width: 800px;
+    height: 333px;
+    background-color: #ebb64cb4;
+    margin: 10px auto 10px auto;
+}

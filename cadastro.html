@@ -4,7 +4,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="./css/login.css">
+        <link rel="stylesheet" type="text/css" href="./css/cadastro.css">
         <link rel="shortcut icon" href="./img/logotitle.png">
         <title>Trench Music</title>
     </head>
@@ -46,17 +46,38 @@
         <main>
             <div class="loginbox">
                 <div class="sidebar"></div>
-                <form class="formlog">
+                <form>
                     <div class="imgcontainer"><figure><img alt="Ícone de Login" src="./img/loginicon.png"></figure></div>
-                    <fieldset>
-                        <legend>Login</legend>
-                        <label for="user">Usuário:</label>
+                    <fieldset class="formlog">
+                        <legend>Cadastre-se</legend>
+                        <label for="n1">Nome:</label>
+                        <input type="text" name="nome" id="n1" placeholder="Digite seu nome:" required>
+                        <label for="dt_nasc">Data de Nascimento: </label>
+                        <input type="date" name="dt_nasc" id="dt_nasc" required>
+                        <label for="cpf">CPF:</label>
+                        <input type="text" name="cpf" id="cpf" placeholder="Digite seu cpf: xxx.xxx.xxx-xx" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}" required>
+                        <label for="tel">Telefone:</label>
+                        <input type="tel" name="telefone" id="tel" placeholder="Digite seu número de telefone:" required>
+                        <input type="submit" value="Finalizar cadastro">
+                    </fieldset>
+                    <fieldset class="formlog2">
+                        <div class="genero">
+                        <p>Gênero:</p>
+                        <input type="radio" id="masc" name="genero" value="masc">
+                        <label for="masc">Masculino</label>
+                        <input type="radio" id="fem" name="genero" value="fem">
+                        <label for="fem">Feminino</label>
+                        </div>
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" id="email" placeholder="Digite seu e-mail:" required>
+                        <label for="user">Nome de usuário:</label>
                         <input type="text" placeholder="Digite seu nome de usuário" name="uname" id="user" required>
                         <label for="senha">Senha:</label>
-                        <input type="password" placeholder="Digite sua senha" name="password" id="senha" required>
+                        <input type="password" placeholder="Digite sua senha" name="password" id="senhac" required>
+                        <label for="senhac">Confirme sua senha:</label>
+                        <input type="password" placeholder="Digite sua senha novamente" name="password" id="senha" required>
                     </fieldset>
                 </form>
-                <div class="sign"><p>Não possui uma conta? <a href="./cadastro.html">Cadastre-se aqui.</a></p></div>
             </div>
         </main>
 

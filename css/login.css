@@ -1,8 +1,9 @@
 @import url('./style.css');
+
 .loginbox{
     width: 400px;
     padding: 0px;
-    height: 350px;
+    height: 370px;
     margin: 50px auto 50px auto;
     background-color: burlywood;
 }
@@ -63,11 +64,11 @@
 }
 
 .sign{
-    display: block;
+    float: left;
     font-size: 8pt;
     width: 200px;
     margin-left: 180px;
-    margin-right: 0px;
+    margin-top: -20px;
 }
 
 .sign a:visited, .sign a{
@@ -76,4 +77,19 @@
 
 .sign a:hover{
     color: rgb(125, 153, 255);
+}
+
+.formlog input[type="submit"]{
+    background-color: rgb(85, 164, 85);
+    height: 40px;
+    width: 100px;
+    margin-top: 5px;
+    margin-left: 20px;
+    float: left;
+    cursor: pointer;
+    font-family: Ubuntu, monospace;
+}
+
+.formlog input[type="submit"]:hover{
+    background-color: rgb(121, 225, 121);
 }

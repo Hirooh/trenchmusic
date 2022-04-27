@@ -48,7 +48,7 @@ header{
     border-radius: 7px;
 }
 
-input[type="submit"]{
+header input[type="submit"]{
     border: 2px solid #000000;
     border-radius: 7px;
     height: 40px;
@@ -59,7 +59,7 @@ input[type="submit"]{
     background-image: url('../img/pesquisar.png');
 }
 
-input[type="submit"]:hover{
+header input[type="submit"]:hover{
     outline: 1px solid #000000;
     border-radius: 75px;
 }
@@ -69,7 +69,7 @@ form{
 }
 
 .login{
-    margin-left: 250px;
+    margin-left: 220px;
     float: left;
     font-size: 14pt;
     margin-top: 8px;
