@@ -1,9 +1,1 @@
-@import url('./style.css');
-
-.prg{
-    text-indent: 20px;
-    text-align: justify;
-    line-height: 30px;
-    width: 80%;
-    margin-left: 10px;
-}
+@import url('./style.css');.prg{text-indent: 20px; text-align: justify; line-height: 30px; width: 80%; margin-left: 10px;}
