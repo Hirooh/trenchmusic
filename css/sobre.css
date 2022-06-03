@@ -1,1 +1,9 @@
-@import url('./style.css');.container{margin: 0px auto 0px auto; width: 1000px; padding: 100px; height: 350px; margin-bottom: 100px; background-color: #ffe1a4b4;}.sobrenos{position: relative; font-family: Ubuntu, monospace; font-weight: bold; font-size: x-large; width: 500px;}.sobretxt{text-indent: 20px; margin-bottom: 20px; width: 600px; text-align: justify; line-height: 30px;}.ondeestamos{position: relative; font-family: Ubuntu, monospace; font-weight: bold; font-size: x-large; width: 500px;}.locMaps{position: absolute; margin-left: 650px; top: 350px; width: 400px; height: 330px;}
+@import url('./style.css');
+
+.prg{
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 30px;
+    width: 80%;
+    margin-left: 10px;
+}

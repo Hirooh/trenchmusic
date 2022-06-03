@@ -1,1 +1,17 @@
-@import url('./style.css');.container{margin: 0px auto 0px auto; width: 1000px; padding: 100px; height: 500px; margin-bottom: 100px; background-color: #ffe1a4b4;}.vidjuan{float: left;}.txtvidjuan{position: relative; top: 10px; right: 100px; margin-left: 100px; width: 250px; text-align: justify; text-indent: 20px; line-height: 20px; font-size: medium;}.txtvidjuan p{height: 0px;}.vidmurillo1{position: relative; float: right; margin-left: 300px; left: 25px;}.txtvidmurillo1{position: relative; bottom: 210px; right: 400px; margin-left: 100px; width: 300px; text-align: justify; text-indent: 20px; line-height: 25px; font-size: medium; float: right;}.vidmurillo2{position: relative; float: right; margin-left: 300px; bottom: 70px; left: 25px;}.txtvidmurillo2{position: relative; bottom: 280px; right: 400px; margin-left: 100px; width: 300px; text-align: justify; text-indent: 20px; line-height: 25px; font-size: medium; float: right;}
+@import url('./style.css');
+
+.prg{
+    text-align: justify;
+    line-height: 30px;
+    margin-right: 20px;
+}
+
+#juan{
+    height: 30vh !important;
+}
+
+@media (max-width: 1000px){
+    div.col-sm-6 div.container.d-flex{
+        display: block !important;
+    }
+}

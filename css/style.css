@@ -7,7 +7,12 @@
 }
 
 body{
-    background-color: #ffefbb !important;
+    background-color: #e8e7ce !important;
+}
+
+a{
+    text-decoration: none !important;
+    cursor: pointer !important;
 }
 
 .vertical-center{
@@ -96,6 +101,16 @@ button:focus{
     background-color: #daa843;
 }
 
+/* Main */
+
+.contmain{
+    background-color: #ffe1a4b4;
+}
+
+.contsub{
+    background-color: #fcd689d1;
+}
+
 /* Footer */
 
 #footer{
@@ -114,10 +129,21 @@ button:focus{
 }
 
 #sobrenos a{
-    text-decoration: none;
     color: #808080;
 }
 
 #sobrenos a:hover{
     color: #a1a1a1;
+}
+
+@media (max-width: 740px){
+    #menu{
+        margin-top: 30%;
+    }
+}
+
+@media (max-width: 576px){
+    #menu{
+        margin-top: 40%;
+    }
 }
