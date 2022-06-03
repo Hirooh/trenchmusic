@@ -1,0 +1,17 @@
+@import url('./style.css');
+
+.prg{
+    text-align: justify;
+    line-height: 30px;
+    margin-right: 20px;
+}
+
+#juan{
+    height: 30vh !important;
+}
+
+@media (max-width: 1000px){
+    div.col-sm-6 div.container.d-flex{
+        display: block !important;
+    }
+}

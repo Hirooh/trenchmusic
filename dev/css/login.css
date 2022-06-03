@@ -1,0 +1,42 @@
+@import url('./style.css');
+
+main .btn-primary{
+    color: black !important;
+    background-color: #55A455 !important;
+    border-radius: 1px;
+    border: 0px;
+}
+
+main .btn-primary:hover{
+    color: black !important;
+    background-color: #498d49 !important;
+}
+
+.form-label{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.title{
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+}
+
+.prg{
+    font-size: 1em;
+}
+
+.contmain{
+    width: 50% !important;
+}
+
+@media (max-width: 1091px){
+    .contmain{
+        width: 75% !important;
+    }
+}
+@media (max-width:576px){
+    .contmain{
+        width: 100% !important;
+    }
+}
