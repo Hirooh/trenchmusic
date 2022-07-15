@@ -1,0 +1,215 @@
+@import url('./style.css');
+
+/* Animação */
+
+.animacao{
+    position: relative;
+    background-image: url("./img/animacao/ned.png");
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    z-index: 2;
+}
+
+.animacao img{
+    width: 227px;
+    height: 139px;
+}
+
+.animacaoT{
+    position: relative;
+    animation-name: animacaoT;
+    animation-duration: 20s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    z-index: 1;
+}
+
+    .animacaoT img{
+        width: 100px;
+        height: 100px;
+    }
+    
+.animacaoR{
+    position: relative;
+    animation-name: animacaoR;
+    animation-duration: 20s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    z-index: 1;
+}
+
+    .animacaoR img{
+        width: 100px;
+        height: 100px;
+    }
+
+.animacaoE{
+    position: relative;
+    animation-name: animacaoE;
+    animation-duration: 20s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    z-index: 1;
+}
+
+    .animacaoE img{
+        width: 100px;
+        height: 100px;
+    }
+
+.animacaoN{
+    position: relative;
+    animation-name: animacaoN;
+    animation-duration: 20s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    z-index: 1;
+}
+
+    .animacaoN img{
+        width: 100px;
+        height: 100px;
+    }
+
+.animacaoC{
+    position: relative;
+    animation-name: animacaoC;
+    animation-duration: 20s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    z-index: 1;
+}
+
+    .animacaoC img{
+        width: 100px;
+        height: 100px;
+    }
+
+.animacaoH{
+    position: relative;
+    animation-name: animacaoH;
+    animation-duration: 20s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    z-index: 1;
+}
+
+    .animacaoH img{
+        width: 100px;
+        height: 100px;
+    }
+
+.animacao2{
+    position: relative;
+    visibility: hidden;
+    animation-name: animacao2;
+    animation-duration: 20s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+.animacao2 img{
+    width: 186px;
+    height: 235px;
+}
+
+@keyframes animacao{
+    0%  {top: 0px; left: 880px;}
+    5%  {top: 0px; left: -35px;}
+    15% {top: 0px; left: 100px;}
+    25% {top: 0px; left: 215px;}
+    35% {top: 0px; left: 340px;}
+    45% {top: 0px; left: 465px;}
+    55% {top: 0px; left: 590px;}
+    60% {top: 0px; left: 775px;}
+    65% {top: 220px; left: 400px;}
+    90% {top: 220px; left: 400px;}
+    100% {top: 220px; left: 880px;}
+}
+
+@keyframes animacaoT{
+    0%  {visibility: hidden; opacity: 0;}
+    7% {visibility: hidden; opacity: 0;}
+    8% {top: 35px; right: 220px; visibility: visible; opacity: 1;}
+    70% {top: 35px; right: 220px; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    75% {top: 35px; right: 220px; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    80% {top: 35px; right: 220px; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    90% {top: 35px; right: 220px; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    100% {top: 35px; right: 220px; visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
+}
+
+@keyframes animacaoR{
+    0%  {visibility: hidden; opacity: 0;}
+    17% {visibility: hidden; opacity: 0;}
+    18% {top: 35px; right: 350px; visibility: visible; opacity: 1;}
+    70% {top: 35px; right: 350px; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    75% {top: 35px; right: 350px; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    80% {top: 35px; right: 350px; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    90% {top: 35px; right: 350px; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    100% {top: 35px; right: 350px; visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
+}
+
+@keyframes animacaoE{
+    0%  {visibility: hidden; opacity: 0;}
+    27% {visibility: hidden; opacity: 0;}
+    28% {top: 35px; right: 480px; visibility: visible; opacity: 1;}
+    70% {top: 35px; right: 480px; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    75% {top: 35px; right: 480px; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    80% {top: 35px; right: 480px; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    90% {top: 35px; right: 480px; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    100% {top: 35px; right: 480px; visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
+}
+
+@keyframes animacaoN{
+    0%  {visibility: hidden; opacity: 0;}
+    37% {visibility: hidden; opacity: 0;}
+    38% {bottom: 275px; left: 400px; visibility: visible; opacity: 1;}
+    70% {bottom: 275px; left: 400px; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    75% {bottom: 275px; left: 400px; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    80% {bottom: 275px; left: 400px; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    90% {bottom: 275px; left: 400px; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    100% {bottom: 275px; left: 400px; visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
+}
+
+@keyframes animacaoC{
+    0%  {visibility: hidden; opacity: 0;}
+    47% {visibility: hidden; opacity: 0;}
+    48% {bottom: 275px; left: 280px; visibility: visible; opacity: 1;}
+    70% {bottom: 275px; left: 280px; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    75% {bottom: 275px; left: 280px; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    80% {bottom: 275px; left: 280px; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    90% {bottom: 275px; left: 280px; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    100% {bottom: 275px; left: 280px; visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
+}
+
+@keyframes animacaoH{
+    0%  {visibility: hidden; opacity: 0;}
+    57% {visibility: hidden; opacity: 0;}
+    58% {bottom: 275px; left: 145px; visibility: visible; opacity: 1;}
+    70% {bottom: 275px; left: 145px; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    75% {bottom: 275px; left: 145px; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    80% {bottom: 275px; left: 145px; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    90% {bottom: 275px; left: 145px; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    100% {bottom: 275px; left: 145px; visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
+}
+
+@keyframes animacao2{
+    0%  {bottom: 350px; left: 10px; visibility: hidden; opacity: 0;}
+    60% {bottom: 350px; left: 10px; visibility: hidden; opacity: 0;}
+    61% {bottom: 350px; left: 10px; visibility: visible; opacity: 1; -webkit-transform: rotate(100deg);}
+    70% {bottom: 350px; left: 10px; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    75% {bottom: 350px; left: 10px; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    80% {bottom: 350px; left: 10px; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    90% {bottom: 350px; left: 10px; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    100% {bottom: 350px; left: 10px; visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
+}
