@@ -5,20 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/cadastro.css">
+    <link rel="stylesheet" href="./css/violoes.css">
     <link rel="shortcut icon" href="./img/title.png">
-    <title>Login | Trench Music</title>
+    <title>Home | Trench Music</title>
 </head>
 
 <body>
-    
+
     <!-- Header -->
     <header>
         <a id="logo" href="./index.html"><img id="logoimg" src="./img/logotrench.png" alt="Logo Trench Music"></a>
         <form>
             <fieldset>
-                <input class="searchbox" type="search" id="search" placeholder="Procure por produtos">
-                <input type="submit" class="pesquisar" value="">
+                <input class="searchbox" type="search" placeholder="Procure por produtos">
+                <label class="search" for="submits"><svg xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 50 50" width="20" height="20" xmlns:v="https://vecta.io/nano"><path d="M21 3C11.621 3 4 10.621 4 20s7.621 17 17 17a16.89 16.89 0 0 0 9.938-3.219l13.156 13.125 2.813-2.812-13-13.031C36.461 28.086 38 24.223 38 20c0-9.379-7.621-17-17-17zm0 2c8.297 0 15 6.703 15 15s-6.703 15-15 15S6 28.297 6 20 12.703 5 21 5z"/></svg></label>
+                <input type="submit" id="submits" value="">
             </fieldset>
         </form>
         <div class="login">
@@ -61,53 +62,68 @@
         </ul>
     </nav>
 
-    <!-- Main -->
     <main>
         <div class="main">
-            <div class="form">
-                    <form>
-                    <fieldset class="field1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 22c-3.123 0-5.914-1.441-7.749-3.69.259-.588.783-.995 1.867-1.246 2.244-.518 4.459-.981 3.393-2.945-3.155-5.82-.899-9.119 2.489-9.119 3.322 0 5.634 3.177 2.489 9.119-1.035 1.952 1.1 2.416 3.393 2.945 1.082.25 1.61.655 1.871 1.241-1.836 2.253-4.628 3.695-7.753 3.695z"/></svg>
-                        <div class="legend">Cadastre-se</div>
-                        <label for="n1">Nome:</label>
-                        <input type="text" name="nome" id="n1" placeholder="Digite seu nome" required>
-                        <label for="dt_nasc">Data de Nascimento: </label>
-                        <input type="date" name="dt_nasc" id="dt_nasc" required>
-                        <label for="cpf">CPF:</label>
-                        <input type="text" name="cpf" id="cpf" placeholder="Digite seu cpf: xxx.xxx.xxx-xx" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}" required>
-                        <label for="tel">Telefone:</label>
-                        <input type="tel" name="telefone" id="tel" placeholder="Digite seu número de telefone" required>
-                    </fieldset>
-                    <fieldset class="field2">
-                        <label for="genero">Gênero:</label>
-                        <fieldset id="genero">
-                            <div>
-                            <input type="radio" id="masc" name="genero" value="masc">
-                            <label for="masc">Masculino</label>
-                            </div>
-                            <div>
-                            <input type="radio" id="fem" name="genero" value="fem">
-                            <label for="fem">Feminino</label>
-                            </div>
-                            <div>
-                            <input type="radio" id="out" name="genero" value="out">
-                            <label for="out">Outro</label>
-                            </div>
-                        </fieldset>
-                        <label for="email">E-mail:</label>
-                        <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
-                        <label for="user">Nome de usuário:</label>
-                        <input type="text" placeholder="Digite seu nome de usuário" name="uname" id="user" required>
-                        <label for="senha">Senha:</label>
-                        <input type="password" placeholder="Digite sua senha" name="password" id="senhac" required>
-                        <label for="senhac">Confirme sua senha:</label>
-                        <input type="password" placeholder="Digite sua senha novamente" name="password" id="senha" required>
-                    </fieldset>
-                    <fieldset class="field3">
-                        <input type="submit" value="Finalizar cadastro">
-                    </fieldset>
-                </form>
+            <div class="maingrid">
+                <div class="imgcontainer">
+                    <img src="./img/loja/vio1.png" alt="Violão Folk Strinberg SD200C Elétrico Cordas de Aço com Afinador">
+                    <div class="title">Violão Folk Strinberg SD200C Elétrico Cordas de Aço com Afinador</div>
+                    <div class="promo">R$ 1.049,00</div>
+                    <div class="fpag"><div class="prec">R$ 839,61</div> à vista</div>
+                </div>
+                <div class="imgcontainer">
+                        <img src="./img/loja/vio2.png" alt="Violão Folk Takamine GD15CE Elétrico Cordas de Aço com Afinador">
+                        <div class="title">Violão Folk Takamine GD15CE Elétrico Cordas de Aço com Afinador</div>
+                        <div class="promo">R$ 4.249,00</div>
+                        <div class="fpag"><div class="prec">R$ 2.999,61</div> à vista</div>
+                </div>
+                <div class="imgcontainer">
+                        <img src="./img/loja/vio3.png" alt="Violão Dreadnought Vintage Statesboro VE440WK Elétrico Cordas de Aço com Afinador">
+                        <div class="title">Violão Dreadnought Vintage Statesboro VE440WK Elétrico Cordas de Aço com Afinador</div>
+                        <div class="promo">R$ 1.899,00</div>
+                        <div class="fpag"><div class="prec">R$ 1.651,41</div> à vista</div>
+                </div>
+
+                <div class="imgcontainer">
+                    <img src="./img/loja/vio4.png" alt="Violão Semi Jumbo Strinberg SJ201HC Elétrico Cordas de Aço com Bag">
+                    <div class="title">Violão Semi Jumbo Strinberg SJ201HC Elétrico Cordas de Aço com Bag</div>
+                    <div class="promo">R$ 1.499,00</div>
+                    <div class="fpag"><div class="prec">R$ 1.321,11</div> à vista</div>
+                </div>
+                <div class="imgcontainer">
+                        <img src="./img/loja/vio5.png" alt="Violão Clássico Yamaha CG122 Acústico com Cordas de Nylon">
+                        <div class="title">Violão Clássico Yamaha CG122 Acústico com Cordas de Nylon</div>
+                        <div class="promo">R$ 2.149,00</div>
+                        <div class="fpag"><div class="prec">R$ 1.805,31</div> à vista</div>
+                </div>
+                <div class="imgcontainer">
+                        <img src="./img/loja/vio6.png" alt="Violão Mini Jumbo Takamine GN75CE-TBK Elétrico com Cordas de Aço e Pré-amplificador TK-40D - Transparent Black">
+                        <div class="title">Violão Mini Jumbo Takamine GN75CE-TBK Elétrico com Cordas de Aço e Pré-amplificador TK-40D - Transparent Black</div>
+                        <div class="promo">R$ 6.349,00</div>
+                        <div class="fpag"><div class="prec">R$ 5.566,41</div> à vista</div>
+                </div>
+
+                <div class="imgcontainer">
+                        <img src="./img/loja/vio7.png" alt="Violão Clássico Giannini Brasil NW1IMBU Acústico Cordas de Nylon">
+                        <div class="title">Violão Clássico Giannini Brasil NW1IMBU Acústico Cordas de Nylon</div>
+                        <div class="promo">R$ 1.049,00</div>
+                        <div class="fpag"><div class="prec">R$ 915,21</div> à vista</div>
+                </div>
+                <div class="imgcontainer">
+                        <img src="./img/loja/vio8.png" alt="Violão Clássico Michael VM19E Acústico com Cordas de Nylon e Acompanha Capa">
+                        <div class="title">Violão Clássico Michael VM19E Acústico com Cordas de Nylon e Acompanha Capa</div>
+                        <div class="promo">R$ 749,00</div>
+                        <div class="fpag"><div class="prec">R$ 658,71</div> à vista</div>
+                </div>
+                <div class="imgcontainer">
+                        <img src="./img/loja/vio9.png" alt="Violão Grand Auditorium Crafter STG G-16CE Elétrico Cordas de Aço Natural com Equalizador LR-T NX e Bag">
+                        <div class="title">Violão Grand Auditorium Crafter STG G-16CE Elétrico Cordas de Aço Natural com Equalizador LR-T NX e Bag</div>
+                        <div class="promo">R$ 8.199,00</div>
+                        <div class="fpag"><div class="prec">R$ 7.205,31</div> à vista</div>
+                </div>
             </div>
+        </div>
+    </div>
         </div>
     </main>
     
