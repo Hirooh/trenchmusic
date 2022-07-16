@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/animacao.css">
+    <link rel="stylesheet" href="./css/cadastro.css">
     <link rel="shortcut icon" href="./img/title.png">
-    <title>Animação | Trench Music</title>
+    <title>Login | Trench Music</title>
 </head>
 
 <body>
     
+    <!-- Header -->
     <header>
         <a id="logo" href="./index.html"><img id="logoimg" src="./img/logotrench.png" alt="Logo Trench Music"></a>
         <form>
@@ -43,6 +44,7 @@
         </ul>
     </header>
     
+    <!-- Nav -->
     <nav>
         <ul id="menu">
             <li class="list"><a href="./index.html">Home</a></li>
@@ -59,35 +61,51 @@
         </ul>
     </nav>
 
+    <!-- Main -->
     <main>
         <div class="main">
-            <div class="animacao">
-                <img src="./img/animacao/ned.png">
-            </div>
-            <div class="animacaoT">
-                <img src="./img/animacao/T.png" />
-            </div>
-            <div class="animacaoR">
-                <img src="./img/animacao/R.png" />
-            </div>
-            <div class="animacaoE">
-                <img src="./img/animacao/E.png" />
-            </div>
-            <div class="animacaoN">
-                <img src="./img/animacao/N.png" />
-            </div>
-            <div class="animacaoC">
-                <img src="./img/animacao/C.png" />
-            </div>
-            <div class="animacaoH">
-                <img src="./img/animacao/H.png" />
-            </div>
-            <div class="animacao2">
-                <img src="./img/animacao/violao_anim.png" />
+            <div class="form">
+                    <form>
+                    <fieldset class="field1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 22c-3.123 0-5.914-1.441-7.749-3.69.259-.588.783-.995 1.867-1.246 2.244-.518 4.459-.981 3.393-2.945-3.155-5.82-.899-9.119 2.489-9.119 3.322 0 5.634 3.177 2.489 9.119-1.035 1.952 1.1 2.416 3.393 2.945 1.082.25 1.61.655 1.871 1.241-1.836 2.253-4.628 3.695-7.753 3.695z"/></svg>
+                        <div class="legend">Cadastre-se</div>
+                        <label for="n1">Nome:</label>
+                        <input type="text" name="nome" id="n1" placeholder="Digite seu nome" required>
+                        <label for="dt_nasc">Data de Nascimento: </label>
+                        <input type="date" name="dt_nasc" id="dt_nasc" required>
+                        <label for="cpf">CPF:</label>
+                        <input type="text" name="cpf" id="cpf" placeholder="Digite seu cpf: xxx.xxx.xxx-xx" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}" required>
+                        <label for="tel">Telefone:</label>
+                        <input type="tel" name="telefone" id="tel" placeholder="Digite seu número de telefone" required>
+                    </fieldset>
+                    <fieldset class="field2">
+                        <label for="genero">Gênero</label>
+                        <fieldset id="genero">
+                            <input type="radio" id="masc" name="genero" value="masc">
+                            <label for="masc">Masculino</label>
+                            <input type="radio" id="fem" name="genero" value="fem">
+                            <label for="fem">Feminino</label>
+                            <input type="radio" id="out" name="genero" value="out">
+                            <label for="out">Outro</label>
+                        </fieldset>
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+                        <label for="user">Nome de usuário:</label>
+                        <input type="text" placeholder="Digite seu nome de usuário" name="uname" id="user" required>
+                        <label for="senha">Senha:</label>
+                        <input type="password" placeholder="Digite sua senha" name="password" id="senhac" required>
+                        <label for="senhac">Confirme sua senha:</label>
+                        <input type="password" placeholder="Digite sua senha novamente" name="password" id="senha" required>
+                    </fieldset>
+                    <fieldset class="field3">
+                        <input type="submit" value="Finalizar cadastro">
+                    </fieldset>
+                </form>
             </div>
         </div>
     </main>
     
+    <!-- Footer -->
     <footer>
         <div class="cred">
             <div>
@@ -109,7 +127,7 @@
         <div class="sobrenos">
             <h1><a href="sobre.html">Sobre nós</a></h1>
             <p>Desenvolvido por <a href="https://github.com/hirooh" target="_blank">Juan</a> e <a href="https://github.com/murillodominguez" target="_blank">Murillo</a></p>
-            <p>Clique <a href="./old/index.html" target="_blank">aqui</a> para acessar a versão antiga do site</p>
+            <p>Clique <a href="./bootstrap/index.html" target="_blank">aqui</a> para acessar a versão do site com Bootstrap</p>
         </div>
     </footer>
 </html>

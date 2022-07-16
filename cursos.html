@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/animacao.css">
+    <link rel="stylesheet" href="./css/cursos.css">
     <link rel="shortcut icon" href="./img/title.png">
-    <title>Animação | Trench Music</title>
+    <title>Cursos | Trench Music</title>
 </head>
 
 <body>
     
+    <!-- Header -->
     <header>
         <a id="logo" href="./index.html"><img id="logoimg" src="./img/logotrench.png" alt="Logo Trench Music"></a>
         <form>
@@ -43,6 +44,7 @@
         </ul>
     </header>
     
+    <!-- Nav -->
     <nav>
         <ul id="menu">
             <li class="list"><a href="./index.html">Home</a></li>
@@ -59,35 +61,47 @@
         </ul>
     </nav>
 
+    <!-- Main -->
     <main>
         <div class="main">
-            <div class="animacao">
-                <img src="./img/animacao/ned.png">
+            <h1>Cursos</h1>
+            <div class="ad">
+                <p>Quer aprender a tocar aquele seu instrumento favorito ou começar do zero na música, e ainda por cima com um preço agradável?</p>
+                <p>Aprenda mais e melhor diretamente com nossos professores, na hora que quiser!</p>
+                <input type="button" class="botao" value="Quero aprender agora!" />
             </div>
-            <div class="animacaoT">
-                <img src="./img/animacao/T.png" />
-            </div>
-            <div class="animacaoR">
-                <img src="./img/animacao/R.png" />
-            </div>
-            <div class="animacaoE">
-                <img src="./img/animacao/E.png" />
-            </div>
-            <div class="animacaoN">
-                <img src="./img/animacao/N.png" />
-            </div>
-            <div class="animacaoC">
-                <img src="./img/animacao/C.png" />
-            </div>
-            <div class="animacaoH">
-                <img src="./img/animacao/H.png" />
-            </div>
-            <div class="animacao2">
-                <img src="./img/animacao/violao_anim.png" />
+            <div class="maingrid">
+                <div class="violao">
+                    <div class="violao1">
+                        <p class="instrNome">Violão</p>
+                        <img src="./img/cursos/adviolao.jpg" class="img-fluid border border-dark rounded" alt="Violão">
+                    </div>
+                    <div class="violao2">
+                        <p>Saiba mais sobre o instrumento, notas, casas, cordas, leitura de tablaturas, pestanas, dedilhado, riffs, solos e outras técnicas nas nossas aulas de violão.</p>
+                        <ul>
+                            <li>Conhecendo o instrumento: cordas, afinação</li>
+                            <li>Introdução à teoria musical: Noções básicas, notas, acordes</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="uke">
+                    <div class="uke2">
+                        <p>Aprenda do zero como tocar suas músicas preferidas e desenvolver seu conhecimento no ukulele.</p>
+                        <ul>
+                            <li>Conhecendo o instrumento: cordas, afinação</li>
+                            <li>Introdução à teoria musical: Noções básicas, notas, acordes</li>
+                        </ul>
+                        </div>
+                    <div class="uke1">
+                        <p class="instrNome">Ukulele</p>
+                        <img src="./img/cursos/aduke.png" class="img-fluid border border-dark rounded" alt="Ukulele">
+                    </div>
+                </div>
             </div>
         </div>
     </main>
     
+    <!-- Footer -->
     <footer>
         <div class="cred">
             <div>
@@ -109,7 +123,7 @@
         <div class="sobrenos">
             <h1><a href="sobre.html">Sobre nós</a></h1>
             <p>Desenvolvido por <a href="https://github.com/hirooh" target="_blank">Juan</a> e <a href="https://github.com/murillodominguez" target="_blank">Murillo</a></p>
-            <p>Clique <a href="./old/index.html" target="_blank">aqui</a> para acessar a versão antiga do site</p>
+            <p>Clique <a href="./bootstrap/index.html" target="_blank">aqui</a> para acessar a versão do site com Bootstrap</p>
         </div>
     </footer>
 </html>
