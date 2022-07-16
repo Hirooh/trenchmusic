@@ -1,0 +1,76 @@
+@import url('./style.css');
+
+main h1{
+    margin-bottom: 0px;
+}
+
+.maingrid{
+   display: flex;
+   flex-flow: column wrap;
+   padding: 20px 30px;
+   gap: 20px;
+}
+
+.maingrid p{
+    text-align: justify;
+    margin-left: 10px;
+    text-indent: 20px;
+    line-height: 30px;
+}
+
+.juan{
+    grid-area: juan;
+}
+
+.juanTxt{
+    width: 60%;
+}
+
+.murillo{
+    grid-area: murillo;
+}
+
+.murilloTxt1{
+    margin-bottom: 20px;
+}
+
+.murilloTxt1, .murilloTxt2{
+    width: 73%;
+}
+
+@media (min-width: 800px){
+    .maingrid{
+        padding: 20px 30px;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: 
+        "murillo juan";
+        gap: 20px;
+    }
+
+    .maingrid p{
+        text-align: justify;
+        text-indent: 20px;
+        line-height: 30px;
+        margin: 0px;
+    }
+
+    .murillo{
+        order: 0;
+    }
+}
+
+@media (max-width: 600px){
+    .murilloVid1 iframe, .murilloVid2 iframe{
+        width: 100%;
+    }
+
+    .murilloTxt1, .murilloTxt2, .juanTxt{
+        width: 100%;
+    }
+
+    .juanVid{
+        width: 100%;
+    }
+}
