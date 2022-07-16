@@ -11,9 +11,9 @@ A princípio utilizando apenas HTML e CSS, Trench Music receberá constantes atu
 Quaisquer insinuações de objetos à venda são empregadas apenas com intuito didático e fictício. O site de forma alguma gera lucro ou movimenta dinheiro.
 
 <div align="center">
-
+  
   [![Logo - Trench Music](https://github.com/hirooh/trenchmusic/blob/main/img/logotrench1.png)](https://hirooh.github.io/trenchmusic/)
-
+  
   [<img src="https://i.imgur.com/d1w0M0I.png" width="100" height="100">](https://hirooh.github.io/trenchmusic/)
 
   [![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge)](https://hirooh.github.io/trenchmusic/)
