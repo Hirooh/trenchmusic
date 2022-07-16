@@ -2,6 +2,16 @@
 
 /* Animação */
 
+.main{
+    z-index: -1;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    grid-template-areas: 
+    "t r e n c h";
+    justify-content: center;
+}
+
 .animacao{
     position: relative;
     background-image: url("./img/animacao/ned.png");
@@ -20,6 +30,7 @@
 
 .animacaoT{
     position: relative;
+    grid-area: t;
     animation-name: animacaoT;
     animation-duration: 20s;
     animation-delay: 0.3s;
@@ -35,6 +46,7 @@
     
 .animacaoR{
     position: relative;
+    grid-area: r;
     animation-name: animacaoR;
     animation-duration: 20s;
     animation-delay: 0.3s;
@@ -50,6 +62,7 @@
 
 .animacaoE{
     position: relative;
+    grid-area: e;
     animation-name: animacaoE;
     animation-duration: 20s;
     animation-delay: 0.3s;
@@ -65,6 +78,7 @@
 
 .animacaoN{
     position: relative;
+    grid-area: n;
     animation-name: animacaoN;
     animation-duration: 20s;
     animation-delay: 0.3s;
@@ -80,6 +94,7 @@
 
 .animacaoC{
     position: relative;
+    grid-area: c;
     animation-name: animacaoC;
     animation-duration: 20s;
     animation-delay: 0.3s;
@@ -95,6 +110,7 @@
 
 .animacaoH{
     position: relative;
+    grid-area: h;
     animation-name: animacaoH;
     animation-duration: 20s;
     animation-delay: 0.3s;
@@ -124,92 +140,124 @@
 }
 
 @keyframes animacao{
-    0%  {top: 0px; left: 880px;}
-    5%  {top: 0px; left: -35px;}
-    15% {top: 0px; left: 100px;}
-    25% {top: 0px; left: 215px;}
-    35% {top: 0px; left: 340px;}
-    45% {top: 0px; left: 465px;}
-    55% {top: 0px; left: 590px;}
-    60% {top: 0px; left: 775px;}
-    65% {top: 220px; left: 400px;}
-    90% {top: 220px; left: 400px;}
-    100% {top: 220px; left: 880px;}
+    0%  {bottom: 50%; left: -600%; visibility: visible; opacity: 1;}
+    15% {bottom: 50%; left: 56%; visibility: visible; opacity: 1;}
+    25% {bottom: 50%; left: 145%; visibility: visible; opacity: 1;}
+    35% {bottom: 50%; left: 245%; visibility: visible; opacity: 1;}
+    45% {bottom: 50%; left: 345%; visibility: visible; opacity: 1;}
+    55% {bottom: 50%; left: 445%; visibility: visible; opacity: 1;}
+    60% {bottom: -40%; left: 300%; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    65% {bottom: -40%; left: 300%; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    70% {bottom: -40%; left: 300%; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    75% {bottom: -40%; left: 300%; visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    80% {bottom: -40%; left: 300%; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    85% {bottom: -40%; left: 300%; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    90% {bottom: -40%; left: 300%; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    95% {bottom: -40%; left: 300%; visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    100% {bottom: -40%; left: 500%; visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
 }
 
 @keyframes animacaoT{
     0%  {visibility: hidden; opacity: 0;}
-    7% {visibility: hidden; opacity: 0;}
-    8% {top: 35px; right: 220px; visibility: visible; opacity: 1;}
-    70% {top: 35px; right: 220px; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
-    75% {top: 35px; right: 220px; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
-    80% {top: 35px; right: 220px; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
-    90% {top: 35px; right: 220px; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
-    100% {top: 35px; right: 220px; visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
+    7%  {visibility: hidden; opacity: 0;}
+    8%  {visibility: visible; opacity: 1;}
+    60% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    65% {visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    70% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    75% {visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    80% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    85% {visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    90% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    95% {visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    100% {visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
 }
 
 @keyframes animacaoR{
     0%  {visibility: hidden; opacity: 0;}
     17% {visibility: hidden; opacity: 0;}
-    18% {top: 35px; right: 350px; visibility: visible; opacity: 1;}
-    70% {top: 35px; right: 350px; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
-    75% {top: 35px; right: 350px; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
-    80% {top: 35px; right: 350px; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
-    90% {top: 35px; right: 350px; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
-    100% {top: 35px; right: 350px; visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
+    18% {visibility: visible; opacity: 1;}
+    60% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    65% {visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    70% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    75% {visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    80% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    85% {visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    90% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    95% {visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    100% {visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
 }
 
 @keyframes animacaoE{
     0%  {visibility: hidden; opacity: 0;}
     27% {visibility: hidden; opacity: 0;}
-    28% {top: 35px; right: 480px; visibility: visible; opacity: 1;}
-    70% {top: 35px; right: 480px; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
-    75% {top: 35px; right: 480px; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
-    80% {top: 35px; right: 480px; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
-    90% {top: 35px; right: 480px; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
-    100% {top: 35px; right: 480px; visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
+    28% {visibility: visible; opacity: 1;}
+    60% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    65% {visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    70% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    75% {visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    80% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    85% {visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    90% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    95% {visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    100% {visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
 }
 
 @keyframes animacaoN{
     0%  {visibility: hidden; opacity: 0;}
     37% {visibility: hidden; opacity: 0;}
-    38% {bottom: 275px; left: 400px; visibility: visible; opacity: 1;}
-    70% {bottom: 275px; left: 400px; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
-    75% {bottom: 275px; left: 400px; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
-    80% {bottom: 275px; left: 400px; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
-    90% {bottom: 275px; left: 400px; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
-    100% {bottom: 275px; left: 400px; visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
+    38% {visibility: visible; opacity: 1;}
+    60% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    65% {visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    70% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    75% {visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    80% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    85% {visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    90% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    95% {visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    100% {visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
 }
 
 @keyframes animacaoC{
     0%  {visibility: hidden; opacity: 0;}
     47% {visibility: hidden; opacity: 0;}
-    48% {bottom: 275px; left: 280px; visibility: visible; opacity: 1;}
-    70% {bottom: 275px; left: 280px; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
-    75% {bottom: 275px; left: 280px; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
-    80% {bottom: 275px; left: 280px; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
-    90% {bottom: 275px; left: 280px; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
-    100% {bottom: 275px; left: 280px; visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
+    48% {visibility: visible; opacity: 1;}
+    60% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    65% {visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    70% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    75% {visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    80% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    85% {visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    90% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    95% {visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    100% {visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
 }
 
 @keyframes animacaoH{
     0%  {visibility: hidden; opacity: 0;}
-    57% {visibility: hidden; opacity: 0;}
-    58% {bottom: 275px; left: 145px; visibility: visible; opacity: 1;}
-    70% {bottom: 275px; left: 145px; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
-    75% {bottom: 275px; left: 145px; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
-    80% {bottom: 275px; left: 145px; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
-    90% {bottom: 275px; left: 145px; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
-    100% {bottom: 275px; left: 145px; visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
+    54% {visibility: hidden; opacity: 0;}
+    55% {visibility: visible; opacity: 1;}
+    60% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    65% {visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    70% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    75% {visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    80% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    85% {visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    90% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    95% {visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    100% {visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
 }
 
 @keyframes animacao2{
-    0%  {bottom: 350px; left: 10px; visibility: hidden; opacity: 0;}
-    60% {bottom: 350px; left: 10px; visibility: hidden; opacity: 0;}
-    61% {bottom: 350px; left: 10px; visibility: visible; opacity: 1; -webkit-transform: rotate(100deg);}
-    70% {bottom: 350px; left: 10px; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
-    75% {bottom: 350px; left: 10px; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
-    80% {bottom: 350px; left: 10px; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
-    90% {bottom: 350px; left: 10px; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
-    100% {bottom: 350px; left: 10px; visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
+    0%  {bottom: -20%; visibility: hidden; opacity: 0;}
+    54% {bottom: -20%; visibility: hidden; opacity: 0;}
+    55% {bottom: -20%; visibility: visible; opacity: 1; -webkit-transform: rotate(100deg);}
+    60% {bottom: -20%; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    65% {bottom: -20%; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    70% {bottom: -20%; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    75% {bottom: -20%; visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    80% {bottom: -20%; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    85% {bottom: -20%; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    90% {bottom: -20%; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    95% {bottom: -20%; visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    100% {bottom: -20%; visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
 }

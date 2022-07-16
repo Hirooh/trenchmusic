@@ -9,7 +9,7 @@
 body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px auto 500px auto;
+    grid-template-rows: 100px auto auto auto;
     grid-template-areas:
     "header header header header"
     "nav nav nav nav"
@@ -62,15 +62,16 @@ header form{
 }
 
 header input[type="submit"]{
-    border: 1px solid #000000;
-    border-radius: 7px;
-    width: 50px;
-    float: left;
-    cursor: pointer;
-    background-image: url('../img/pesquisar.png');
+    display: none;
 }
 
-.searchbox, header input[type="submit"]{
+.search svg{
+    margin-left: -30px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.searchbox, .search svg{
     height: 35px;
 }
 
@@ -207,7 +208,7 @@ nav li ul{
  nav li:hover ul{
      display: block;
      position: absolute;
-     top: 134px;
+     top: 144px;
      padding: 10px;
      background-color: #daa843;
      outline: 1px solid black;
@@ -232,8 +233,22 @@ nav li ul{
 
 main{
     grid-area: main;
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 15px;
     margin: 0% 5% 0% 5%;
+}
+
+main h1{
+    text-indent: 2rem;
+    color: #212529;
+    margin-bottom: 15px;
+}
+
+.main{
+    border-radius: 6px;
     background-color: #ffe1a4b4;
+    padding: 20px 10px;
 }
 
 /*Footer*/
@@ -308,7 +323,7 @@ footer p a:hover{
     body{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 100px 40px 500px auto;
+        grid-template-rows: 100px 40px auto auto;
         grid-template-areas:
         "header header header header"
         "nav nav nav nav"
