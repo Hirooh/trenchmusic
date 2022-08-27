@@ -1,1 +1,175 @@
-@import url('./style.css');.main > h1{margin-bottom: 0px;}.cursos{background-color: #e7ad39b4; display: flex; justify-content: center; padding: 30px 0px; border-radius: 6px;}.maingrid{padding: 20px 30px; display: flex; flex-flow: column wrap; gap: 20px;}.topsongs{grid-area: top; background-color: #fcd689d1; padding: 20px;}.topsongs > h1{font-size: 1.5em; text-indent: 0;}.topsongs ul{margin-left: 10px;}.tabsongs{display: flex;}.topsongs ul :not(:last-child){margin-bottom: 10px;}.topsongs ul li{display: grid; grid-template-columns: 1fr 1fr;}.topsongs ul li :nth-child(1){grid-column: 1/2}.topsongs ul li :nth-child(1) a{font-weight: bold;}.topsongs ul li :nth-child(1) a:hover, .topsongs ul li :nth-child(2) a:hover{color: rgb(46, 46, 46); transition: color 150ms linear;}.topsongs ul li :nth-child(2){grid-column: 1/2;}.topsongs ul li :nth-child(2) a{font-weight: 400;}.topsongs ul li :nth-child(3){grid-column: 2/-1; grid-row: 1;}.topsongs a svg path{fill: rgb(78, 255, 78);}.topsongs a svg:hover path{fill: rgb(20, 133, 0); transition: fill 150ms linear;}.genretable{grid-area: tableg; background-color: #fcd689d1; padding: 20px;}.genretable h1{font-size: 1.5em; text-indent: 0;}.tab{display: grid; grid-template-columns: 1fr 1fr 1fr; row-gap: 20px;}.tab div{display: flex; justify-content: center;}.tab div a:hover{color:rgb(69, 69, 69); transition: color 150ms linear;}.tab div:nth-of-type(1),.tab div:nth-of-type(2),.tab div:nth-of-type(3){font-family: 'Ubuntu', sans-serif; font-weight: bold; padding-bottom: 5px; border-bottom: 2px solid black;}.tab div:nth-last-of-type(1),.tab div:nth-last-of-type(2),.tab div:nth-last-of-type(3){font-family: 'Ubuntu', sans-serif !important; border-top: 1px solid black; padding-top: 5px;}.ad{grid-area: ad; display: flex; justify-content: space-around;}.ad svg{fill: black;}.ad svg:hover{fill: rgb(59, 59, 59); transition: fill 150ms linear;}.ad a{color: rgb(0, 0, 0);}.ad a:hover{color: rgb(40, 40, 40); transition: color 150ms linear;}.spotify{grid-area: spotify;}.spotify iframe{width: 100%; height: 400px;}@media (min-width: 800px){.maingrid{padding: 20px 30px; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: auto 300px; grid-template-areas: "top tableg" "ad spotify"; gap: 40px;}.spotify iframe{width: 100%; height: 100%; border-radius: 10px;}}
+@import url('./style.css');
+
+.main > h1{
+    margin-bottom: 0px;
+}
+
+.cursos{
+    background-color: #e7ad39b4;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    border-radius: 6px;
+}
+
+.maingrid{
+    padding: 20px 30px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+}
+
+.topsongs{
+    grid-area: top;
+    background-color: #fcd689d1;
+    padding: 20px;
+}
+
+.topsongs > h1{
+    font-size: 1.5em;
+    text-indent: 0;
+}
+
+.topsongs ul{
+    margin-left: 10px;
+}
+
+.tabsongs{
+    display: flex;
+}
+
+.topsongs ul :not(:last-child){
+    margin-bottom: 10px;
+}
+
+.topsongs ul li{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.topsongs ul li :nth-child(1){
+    grid-column: 1/2
+}
+
+.topsongs ul li :nth-child(1) a{
+    font-weight: bold;
+}
+
+.topsongs ul li :nth-child(1) a:hover, .topsongs ul li :nth-child(2) a:hover{
+    color: rgb(46, 46, 46);
+    transition: color 150ms linear;
+}
+
+.topsongs ul li :nth-child(2){
+    grid-column: 1/2;
+}
+
+.topsongs ul li :nth-child(2) a{
+    font-weight: 400;
+}
+
+.topsongs ul li :nth-child(3){
+    grid-column: 2/-1;
+    grid-row: 1;
+}
+
+.topsongs a svg path{
+    fill: rgb(78, 255, 78);
+}
+
+.topsongs a svg:hover path{
+    fill: rgb(20, 133, 0);
+    transition: fill 150ms linear;
+}
+
+.genretable{
+    grid-area: tableg;
+    background-color: #fcd689d1;
+    padding: 20px;
+}
+
+.genretable h1{
+    font-size: 1.5em;
+    text-indent: 0;
+}
+
+.tab{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+}
+
+.tab div{
+    display: flex;
+    justify-content: center;
+}
+
+.tab div a:hover{
+    color:rgb(69, 69, 69);
+    transition: color 150ms linear;
+}
+
+.tab div:nth-of-type(1),.tab div:nth-of-type(2),.tab div:nth-of-type(3){
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+
+.tab div:nth-last-of-type(1),.tab div:nth-last-of-type(2),.tab div:nth-last-of-type(3){
+    font-family: 'Ubuntu', sans-serif !important;
+    border-top: 1px solid black;
+    padding-top: 5px;
+}
+
+.ad{
+    grid-area: ad;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ad svg{
+    fill: black;
+}
+
+.ad svg:hover{
+    fill: rgb(59, 59, 59);
+    transition: fill 150ms linear;
+}
+
+.ad a{
+    color: rgb(0, 0, 0);
+}
+
+.ad a:hover{
+    color: rgb(40, 40, 40);
+    transition: color 150ms linear;
+}
+
+.spotify{
+    grid-area: spotify;
+}
+
+.spotify iframe{
+    width: 100%;
+    height: 400px;
+}
+
+@media (min-width: 800px){
+    .maingrid{
+        padding: 20px 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 300px;
+        grid-template-areas: 
+        "top tableg"
+        "ad spotify";
+        gap: 40px;
+    }
+
+    .spotify iframe{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;    
+    }
+}

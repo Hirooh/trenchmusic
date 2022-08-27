@@ -8,17 +8,14 @@
     padding: 20px;
 }
 
-.imgcontainer{
-    width: 200px;
-    display: flex;
-    flex-direction: column;
+.maingrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
 }
 
-.maingrid{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+.title{
+    
 }
 
 .promo{
@@ -40,21 +37,11 @@
 .imgcontainer img{
     width: 200px;
     height: 225px;
+    margin-top: 30px;
 }
 
 @media (min-width: 800px){
-    .maingrid{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 20px;
-        justify-items: center;
-        align-items: center;
-    }
-
-    .imgcontainer{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: flex-start;
+    .title{
+        width: 200px;
     }
 }

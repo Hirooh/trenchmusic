@@ -42,11 +42,11 @@ label{
     margin-bottom: 10px;
 }
 
-main fieldset :not(:last-child, .logredirect, .logredirect a, .logredirect p){
+main fieldset :not(:last-child, #estado1, .logredirect, .logredirect a, .logredirect p){
     margin-bottom: 10px;
 }
 
-main fieldset :not(input[type="submit"], label){
+main fieldset :not(button[type="button"], #estado1, label){
     height: 20px;
     border-radius: 3px;
     padding: 10px;
@@ -56,7 +56,7 @@ main fieldset :not(input[type="submit"], label){
     padding: 0px !important;
 }
 
-input[type="submit"]{
+button[type="button"]{
     margin-right: auto;
     font-family: 'Ubuntu', sans-serif;
     width: 70px;
@@ -77,6 +77,49 @@ input[type="submit"]{
 .main fieldset :nth-last-child(2){
     grid-column: 1/2;
 }
+
+#estado{
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 0px;
+}
+
+#estado div{
+    display: flex;
+    align-items: center;
+}
+
+/* Validação */
+
+.notfill{
+    border: 1px solid red;
+}
+
+input:focus{
+    outline: 0px;
+}
+
+.required{
+    color: red;
+}
+
+.fillmessageNome,
+.fillmessageCPF,
+.fillmessageSenha,
+.fillmessageSenhac{
+    display: none;
+}
+
+.fillmessageNome.active, .fillmessageCPF.active, .fillmessageSenha.active, .fillmessageSenhac.active{
+    display: flex;
+    margin: 0px !important;
+    padding: 0px !important;
+    color: red;
+    font-size: 0.7em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/**/
 
 .logredirect a, .logredirect p{
     font-size: 0.6em;

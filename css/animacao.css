@@ -1,1 +1,261 @@
-@import url('./style.css');.main{z-index: -1; padding: 5%; display: grid; grid-template-columns: 15% 15% 15% 15% 15% 15%; grid-template-areas: "t r e n c h"; justify-content: center;}.animacao{position: relative; background-image: url("./img/animacao/ned.png"); animation-name: animacao; animation-duration: 20s; animation-delay: 0.3s; animation-iteration-count: infinite; animation-timing-function: ease; z-index: 2;}.animacao img{width: 227px; height: 139px;}.animacaoT{position: relative; grid-area: t; animation-name: animacaoT; animation-duration: 20s; animation-delay: 0.3s; animation-iteration-count: infinite; animation-timing-function: ease; z-index: 1;}.animacaoT img{width: 100px; height: 100px;}.animacaoR{position: relative; grid-area: r; animation-name: animacaoR; animation-duration: 20s; animation-delay: 0.3s; animation-iteration-count: infinite; animation-timing-function: ease; z-index: 1;}.animacaoR img{width: 100px; height: 100px;}.animacaoE{position: relative; grid-area: e; animation-name: animacaoE; animation-duration: 20s; animation-delay: 0.3s; animation-iteration-count: infinite; animation-timing-function: ease; z-index: 1;}.animacaoE img{width: 100px; height: 100px;}.animacaoN{position: relative; grid-area: n; animation-name: animacaoN; animation-duration: 20s; animation-delay: 0.3s; animation-iteration-count: infinite; animation-timing-function: ease; z-index: 1;}.animacaoN img{width: 100px; height: 100px;}.animacaoC{position: relative; grid-area: c; animation-name: animacaoC; animation-duration: 20s; animation-delay: 0.3s; animation-iteration-count: infinite; animation-timing-function: ease; z-index: 1;}.animacaoC img{width: 100px; height: 100px;}.animacaoH{position: relative; grid-area: h; animation-name: animacaoH; animation-duration: 20s; animation-delay: 0.3s; animation-iteration-count: infinite; animation-timing-function: ease; z-index: 1;}.animacaoH img{width: 100px; height: 100px;}.animacao2{position: relative; visibility: hidden; animation-name: animacao2; animation-duration: 20s; animation-delay: 0.3s; animation-iteration-count: infinite; animation-timing-function: ease;}.animacao2 img{width: 186px; height: 235px;}@keyframes animacao{0%{bottom: 50%; left: -600%; visibility: visible; opacity: 1;}15%{bottom: 50%; left: 56%; visibility: visible; opacity: 1;}25%{bottom: 50%; left: 145%; visibility: visible; opacity: 1;}35%{bottom: 50%; left: 245%; visibility: visible; opacity: 1;}45%{bottom: 50%; left: 345%; visibility: visible; opacity: 1;}55%{bottom: 50%; left: 445%; visibility: visible; opacity: 1;}60%{bottom: -40%; left: 300%; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}65%{bottom: -40%; left: 300%; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}70%{bottom: -40%; left: 300%; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}75%{bottom: -40%; left: 300%; visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}80%{bottom: -40%; left: 300%; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}85%{bottom: -40%; left: 300%; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}90%{bottom: -40%; left: 300%; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}95%{bottom: -40%; left: 300%; visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}100%{bottom: -40%; left: 500%; visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}}@keyframes animacaoT{0%{visibility: hidden; opacity: 0;}7%{visibility: hidden; opacity: 0;}8%{visibility: visible; opacity: 1;}60%{visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}65%{visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}70%{visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}75%{visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}80%{visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}85%{visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}90%{visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}95%{visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}100%{visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}}@keyframes animacaoR{0%{visibility: hidden; opacity: 0;}17%{visibility: hidden; opacity: 0;}18%{visibility: visible; opacity: 1;}60%{visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}65%{visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}70%{visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}75%{visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}80%{visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}85%{visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}90%{visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}95%{visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}100%{visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}}@keyframes animacaoE{0%{visibility: hidden; opacity: 0;}27%{visibility: hidden; opacity: 0;}28%{visibility: visible; opacity: 1;}60%{visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}65%{visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}70%{visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}75%{visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}80%{visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}85%{visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}90%{visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}95%{visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}100%{visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}}@keyframes animacaoN{0%{visibility: hidden; opacity: 0;}37%{visibility: hidden; opacity: 0;}38%{visibility: visible; opacity: 1;}60%{visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}65%{visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}70%{visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}75%{visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}80%{visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}85%{visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}90%{visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}95%{visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}100%{visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}}@keyframes animacaoC{0%{visibility: hidden; opacity: 0;}47%{visibility: hidden; opacity: 0;}48%{visibility: visible; opacity: 1;}60%{visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}65%{visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}70%{visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}75%{visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}80%{visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}85%{visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}90%{visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}95%{visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}100%{visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}}@keyframes animacaoH{0%{visibility: hidden; opacity: 0;}54%{visibility: hidden; opacity: 0;}55%{visibility: visible; opacity: 1;}60%{visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}65%{visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}70%{visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}75%{visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}80%{visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}85%{visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}90%{visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}95%{visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}100%{visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}}@keyframes animacao2{0%{bottom: -20%; visibility: hidden; opacity: 0;}54%{bottom: -20%; visibility: hidden; opacity: 0;}55%{bottom: -20%; visibility: visible; opacity: 1; -webkit-transform: rotate(100deg);}60%{bottom: -20%; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}65%{bottom: -20%; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}70%{bottom: -20%; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}75%{bottom: -20%; visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}80%{bottom: -20%; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}85%{bottom: -20%; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}90%{bottom: -20%; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}95%{bottom: -20%; visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}100%{bottom: -20%; visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}}
+@import url('./style.css');
+
+.main{
+    z-index: -1;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    grid-template-areas: 
+    "t r e n c h";
+    justify-content: center;
+}
+
+.animacao{
+    position: relative;
+    background-image: url("./img/animacao/ned.png");
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    z-index: 2;
+}
+
+.animacao img{
+    width: 227px;
+    height: 139px;
+}
+
+.animacaoT{
+    position: relative;
+    grid-area: t;
+    animation-name: animacaoT;
+    animation-duration: 20s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    z-index: 1;
+}
+
+    .animacaoT img{
+        width: 100px;
+        height: 100px;
+    }
+    
+.animacaoR{
+    position: relative;
+    grid-area: r;
+    animation-name: animacaoR;
+    animation-duration: 20s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    z-index: 1;
+}
+
+    .animacaoR img{
+        width: 100px;
+        height: 100px;
+    }
+
+.animacaoE{
+    position: relative;
+    grid-area: e;
+    animation-name: animacaoE;
+    animation-duration: 20s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    z-index: 1;
+}
+
+    .animacaoE img{
+        width: 100px;
+        height: 100px;
+    }
+
+.animacaoN{
+    position: relative;
+    grid-area: n;
+    animation-name: animacaoN;
+    animation-duration: 20s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    z-index: 1;
+}
+
+    .animacaoN img{
+        width: 100px;
+        height: 100px;
+    }
+
+.animacaoC{
+    position: relative;
+    grid-area: c;
+    animation-name: animacaoC;
+    animation-duration: 20s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    z-index: 1;
+}
+
+    .animacaoC img{
+        width: 100px;
+        height: 100px;
+    }
+
+.animacaoH{
+    position: relative;
+    grid-area: h;
+    animation-name: animacaoH;
+    animation-duration: 20s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    z-index: 1;
+}
+
+    .animacaoH img{
+        width: 100px;
+        height: 100px;
+    }
+
+.animacao2{
+    position: relative;
+    visibility: hidden;
+    animation-name: animacao2;
+    animation-duration: 20s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+.animacao2 img{
+    width: 186px;
+    height: 235px;
+}
+
+@keyframes animacao{
+    0%  {bottom: 50%; left: -600%; visibility: visible; opacity: 1;}
+    15% {bottom: 50%; left: 56%; visibility: visible; opacity: 1;}
+    25% {bottom: 50%; left: 145%; visibility: visible; opacity: 1;}
+    35% {bottom: 50%; left: 245%; visibility: visible; opacity: 1;}
+    45% {bottom: 50%; left: 345%; visibility: visible; opacity: 1;}
+    55% {bottom: 50%; left: 445%; visibility: visible; opacity: 1;}
+    60% {bottom: -40%; left: 300%; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    65% {bottom: -40%; left: 300%; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    70% {bottom: -40%; left: 300%; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    75% {bottom: -40%; left: 300%; visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    80% {bottom: -40%; left: 300%; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    85% {bottom: -40%; left: 300%; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    90% {bottom: -40%; left: 300%; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    95% {bottom: -40%; left: 300%; visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    100% {bottom: -40%; left: 500%; visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
+}
+
+@keyframes animacaoT{
+    0%  {visibility: hidden; opacity: 0;}
+    7%  {visibility: hidden; opacity: 0;}
+    8%  {visibility: visible; opacity: 1;}
+    60% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    65% {visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    70% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    75% {visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    80% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    85% {visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    90% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    95% {visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    100% {visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
+}
+
+@keyframes animacaoR{
+    0%  {visibility: hidden; opacity: 0;}
+    17% {visibility: hidden; opacity: 0;}
+    18% {visibility: visible; opacity: 1;}
+    60% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    65% {visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    70% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    75% {visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    80% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    85% {visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    90% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    95% {visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    100% {visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
+}
+
+@keyframes animacaoE{
+    0%  {visibility: hidden; opacity: 0;}
+    27% {visibility: hidden; opacity: 0;}
+    28% {visibility: visible; opacity: 1;}
+    60% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    65% {visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    70% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    75% {visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    80% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    85% {visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    90% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    95% {visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    100% {visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
+}
+
+@keyframes animacaoN{
+    0%  {visibility: hidden; opacity: 0;}
+    37% {visibility: hidden; opacity: 0;}
+    38% {visibility: visible; opacity: 1;}
+    60% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    65% {visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    70% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    75% {visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    80% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    85% {visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    90% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    95% {visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    100% {visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
+}
+
+@keyframes animacaoC{
+    0%  {visibility: hidden; opacity: 0;}
+    47% {visibility: hidden; opacity: 0;}
+    48% {visibility: visible; opacity: 1;}
+    60% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    65% {visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    70% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    75% {visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    80% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    85% {visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    90% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    95% {visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    100% {visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
+}
+
+@keyframes animacaoH{
+    0%  {visibility: hidden; opacity: 0;}
+    54% {visibility: hidden; opacity: 0;}
+    55% {visibility: visible; opacity: 1;}
+    60% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    65% {visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    70% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    75% {visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    80% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    85% {visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    90% {visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    95% {visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    100% {visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
+}
+
+@keyframes animacao2{
+    0%  {bottom: -20%; visibility: hidden; opacity: 0;}
+    54% {bottom: -20%; visibility: hidden; opacity: 0;}
+    55% {bottom: -20%; visibility: visible; opacity: 1; -webkit-transform: rotate(100deg);}
+    60% {bottom: -20%; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    65% {bottom: -20%; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    70% {bottom: -20%; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    75% {bottom: -20%; visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    80% {bottom: -20%; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    85% {bottom: -20%; visibility: visible; opacity: 1; -webkit-transform: rotate(15deg);}
+    90% {bottom: -20%; visibility: visible; opacity: 1; -webkit-transform: rotate(0deg);}
+    95% {bottom: -20%; visibility: visible; opacity: 1; -webkit-transform: rotate(-15deg);}
+    100% {bottom: -20%; visibility: hidden; opacity: 0; -webkit-transform: rotate(0deg);}
+}
