@@ -91,14 +91,16 @@ function guardarInfo(){
         document.getElementById("form").reset();
         document.getElementById("botao").setAttribute("onclick", "return profissaoPreenchido(), estadoPreenchido(), expPreenchido(), guardarInfo2();")
 
-        /* Remover Parte 1 */ /*
+        /* Remover Parte 1 */
+        /*
         let formc = document.querySelector("#form").querySelectorAll("input"), labelc = document.querySelector(".form").querySelectorAll("label");
         for(c = 0; c < formc.length; ++c){
             document.querySelector(".form").querySelector("input").remove();
         }
         for(c = 0; c < labelc.length; ++c){
             document.querySelector(".form").querySelector("label").remove();
-        } */
+        }
+        */
 
         /* Criar Parte 2 */
 
